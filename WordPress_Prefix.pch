@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'WordPress' target in the 'WordPress' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+
+	#import <CoreLocation/CoreLocation.h>
+    #import "Constants.h"
+    #import "NSString+Util.h"
+#endif
