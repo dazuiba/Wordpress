@@ -4164,7 +4164,8 @@ editBlogViewController, currentLocation;
     NSString *title = [[aPost valueForKey:@"title"] stringByTrimmingCharactersInSet:whitespaceCS];
 //	NSString *description = [[aPost valueForKey:@"description"]
 //											stringByTrimmingCharactersInSet:whitespaceCS];
-    NSString *trimTitle;
+	
+	NSString *trimTitle;
 
     if ([title length] > 0) {
         trimTitle = ([title length] > 50) ? [[title substringToIndex:50] stringByAppendingString:@"..."]
@@ -4173,6 +4174,7 @@ editBlogViewController, currentLocation;
         trimTitle = @"(no title)"; //([description length] > 50)?[[description substringToIndex:50] stringByAppendingString:@"..."]
                                    //		   :description;
     }
+	
 
     [postTitle setObject:(trimTitle ? trimTitle:@"")forKey:@"title"];
     //------ TITLE -->

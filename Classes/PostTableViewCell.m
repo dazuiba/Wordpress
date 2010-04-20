@@ -77,7 +77,16 @@
     if (title == nil || ([title length] == 0)) {
         title = @"(no title)";
     }
-
+	//jose.raya@agilogy.com
+	if ( [title hasPrefix:@"<!--:" ] ) {
+		title = [ title substringFromIndex: [ @"<!--:xx-->" length ] ];
+		NSRange indexOf = [ title rangeOfString:@"<!--:" ];
+		if ( indexOf.location < [ title length ] ) {
+			title = [ title substringToIndex: indexOf.location ];
+			
+		}
+	}
+	//jose.raya@agilogy.com
     nameLabel.text = title;
 
     NSDate *date = [post valueForKey:@"date_created_gmt"];
