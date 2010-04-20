@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* WordPress */ = {
+		activeExec = 0;
+		executables = (
+			822C579A117DF31000F8106C /* WordPress */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 822C579A117DF31000F8106C /* WordPress */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* WordPress */;
+		breakpoints = (
+			822C57C1117DF40E00F8106C /* PostsViewController.m:352 */,
+		);
+		codeSenseManager = 822C57BE117DF32700F8106C /* Code sense */;
+		executables = (
+			822C579A117DF31000F8106C /* WordPress */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293466896;
+			PBXWorkspaceStateSaveDate = 293466896;
+		};
+		perUserProjectItems = {
+			822C57B6117DF32700F8106C /* PBXBookmark */ = 822C57B6117DF32700F8106C /* PBXBookmark */;
+			822C57B7117DF32700F8106C /* PBXTextBookmark */ = 822C57B7117DF32700F8106C /* PBXTextBookmark */;
+			822C57C2117DF40E00F8106C /* PBXTextBookmark */ = 822C57C2117DF40E00F8106C /* PBXTextBookmark */;
+			822C57C4117DF41300F8106C /* PBXTextBookmark */ = 822C57C4117DF41300F8106C /* PBXTextBookmark */;
+			822C57C5117DF41300F8106C /* PBXTextBookmark */ = 822C57C5117DF41300F8106C /* PBXTextBookmark */;
+			822C57C6117DF41300F8106C /* PBXTextBookmark */ = 822C57C6117DF41300F8106C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 822C57BD117DF32700F8106C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2F706AA30DFB24C500B43086 /* BlogDataManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 4550}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 878}";
+		};
+	};
+	2F706AA40DFB24C500B43086 /* BlogDataManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 71240}}";
+			sepNavSelRange = "{102338, 16}";
+			sepNavVisRange = "{102030, 845}";
+		};
+	};
+	2F970F730DF92274006BD934 /* PostsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 7007}}";
+			sepNavSelRange = "{11918, 39}";
+			sepNavVisRange = "{11432, 1028}";
+		};
+	};
+	822C579A117DF31000F8106C /* WordPress */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = WordPress;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	822C57B6117DF32700F8106C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2F706AA40DFB24C500B43086 /* BlogDataManager.m */;
+	};
+	822C57B7117DF32700F8106C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2F706AA40DFB24C500B43086 /* BlogDataManager.m */;
+		name = "BlogDataManager.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1326;
+		vrLoc = 2288;
+	};
+	822C57BD117DF32700F8106C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	822C57BE117DF32700F8106C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	822C57C1117DF40E00F8106C /* PostsViewController.m:352 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2F970F730DF92274006BD934 /* PostsViewController.m */;
+		functionName = "-loadPosts";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 352;
+		location = WordPress;
+		modificationTime = 293467151.251886;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	822C57C2117DF40E00F8106C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2F970F730DF92274006BD934 /* PostsViewController.m */;
+		rLen = 1;
+		rLoc = 351;
+		rType = 1;
+	};
+	822C57C4117DF41300F8106C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2F706AA30DFB24C500B43086 /* BlogDataManager.h */;
+		name = "BlogDataManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 0;
+	};
+	822C57C5117DF41300F8106C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2F706AA40DFB24C500B43086 /* BlogDataManager.m */;
+		name = "BlogDataManager.m: 2643";
+		rLen = 16;
+		rLoc = 102338;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 102030;
+	};
+	822C57C6117DF41300F8106C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2F970F730DF92274006BD934 /* PostsViewController.m */;
+		name = "PostsViewController.m: 352";
+		rLen = 39;
+		rLoc = 11918;
+		rType = 0;
+		vrLen = 1028;
+		vrLoc = 11432;
+	};
+}
